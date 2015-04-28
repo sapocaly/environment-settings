@@ -8,9 +8,9 @@ fi
 
 #doing somethings
 gwk
-echo ----------MEMO----------
+echo -e "\033[31m----------MEMO----------\033[0m"
 memo         #alias memo, memo scripts for catting memo
-echo ------------------------
+echo -e "\033[31m-------------------------\033[0m"
 
 
 if brew list | grep coreutils > /dev/null ; then

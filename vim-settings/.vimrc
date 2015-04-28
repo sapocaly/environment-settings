@@ -9,11 +9,13 @@ au BufRead,BufNewFile *.markdown set filetype=markdown
 
 "colorscheme
 colorscheme codeschool
-    set expandtab
-	set tabstop=4
-	set ai
-	set number
 
+
+set expandtab
+set tabstop=4
+set softtabstop=4
+set ai
+set number
 set showmatch
 
 "nerdtree
@@ -24,9 +26,6 @@ set cursorline
 hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white
 hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
 
-"indentation
-set tabstop=4
-set autoindent
 
 "taglist
 let Tlist_Use_Right_Window = 1

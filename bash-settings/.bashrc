@@ -8,7 +8,9 @@ alias gwk='cd ~/Desktop/workspace'
 
 #domob offline server and jump server
 alias online='ssh -p22 shengye@10.0.0.206'
+alias online203='ssh offer@10.0.0.203'
 alias onlinemoni='ssh -p1433 shengye@moni.domob.cn'
+
 
 alias grep='grep --color'
 alias egrep='egrep --color'

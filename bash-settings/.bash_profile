@@ -1,5 +1,10 @@
 # .bash_profile
 
+#ali working profile
+JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Contents/Home
+export JAVA_HOME
+
+
 #Get the aliases and functions
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
